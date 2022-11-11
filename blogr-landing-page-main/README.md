@@ -1,4 +1,5 @@
 # Frontend Mentor - Blogr landing page
+LIve Site URL: https://landingpagies.netlify.app/blogr-landing-page-main/
 
 ![Design preview for the Blogr landing page coding challenge](./design/desktop-preview.jpg)
 
