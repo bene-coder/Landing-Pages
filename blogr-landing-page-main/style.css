@@ -355,7 +355,8 @@ button {
   font-size: 14px;
 }
 .footer-section .container li:hover {
-  border-bottom: 1px solid var(--Grayish-blue);
+  /* border-bottom: 1px solid var(--Grayish-blue); */
+  text-decoration: underline;
 }
 .footer-section .container h3 {
   font-weight: bold;
