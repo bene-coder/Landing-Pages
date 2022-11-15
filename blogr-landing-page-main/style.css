@@ -19,8 +19,7 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
-/* font-family: 'Overpass', sans-serif; */
-/* font-family: 'Ubuntu', sans-serif; */
+
 
 * {
   padding: 0;
@@ -117,7 +116,6 @@ body {
 .navbar .nav-container ul li {
   padding: 0.5rem 0rem;
   
-  /* border-bottom: 0.2px solid var(--dark-black-blue); */
 }
 .navbar .nav-container ul li:hover {
   color: var(--dark-black-blue);
@@ -165,7 +163,6 @@ body {
 }
 .section-a {
   background-color: var(--Very-light-red);
-  /* background-image: url("images\bg-pattern-intro-desktop.svg"); */
   border-radius: 0px 0px 0px 70px;
   width: 100%;
   overflow-y: hidden;
@@ -355,7 +352,6 @@ button {
   font-size: 14px;
 }
 .footer-section .container li:hover {
-  /* border-bottom: 1px solid var(--Grayish-blue); */
   text-decoration: underline;
 }
 .footer-section .container h3 {
@@ -389,16 +385,12 @@ button {
     justify-content: flex-start;
     width: 70%;
   }
-  /* .navbar .nav-container{
-    display: flex;
-    justify-content: space-between
-  } */
+
   .navbar .nav-container .nav-sector {
     display: flex;
     position: relative;
     flex-direction: row-reverse;
     width: 100%;
-    /* justify-content: center; */
     font-weight: 500;
     margin-top: 6rem;
   }
@@ -415,7 +407,7 @@ button {
     position: absolute;
     margin: 0 auto;
     flex-direction: row-reverse;
-    width: 20.5rem;
+    width: 19rem;
     height: 24rem;
     justify-content: center;
     color: var(--dark-black-blue);

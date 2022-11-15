@@ -53,6 +53,7 @@ body {
 .last:hover {
   background-color: var(--Dark-Violet);
   color: var(--Very-Light-Gray) !important;
+  transition: ease-in-out 0.3s;
 }
 .navbar .nav-ptn img {
   display: none;
@@ -267,13 +268,14 @@ body {
   font-size: 13px;
 }
 .footer-section .container .enquiries p:hover {
-  border-bottom: 1px solid var(--Very-Dark-Violet);
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 850px) {
   .navbar-section {
-    position: sticky;
+    position: fixed;
     padding: 1rem 3rem;
+    width: 100%;
   }
   .navbar {
     display: none;

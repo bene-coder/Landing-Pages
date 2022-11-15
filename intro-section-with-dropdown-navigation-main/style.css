@@ -40,27 +40,23 @@
   margin-left: 2rem;
   cursor: pointer;
 }
-/* .navbar-section .navbar .enquiries div:hover {
-  color: black;
-  font-weight: 700;
-} */
 .navbar-section .-section {
   display: none;
 }
 .navbar-section .navbar .careers:hover {
   color: var(--Almost-Black);
-  font-weight: 700;
+  font-weight: 500;
 }
 .navbar-section .navbar .about:hover:hover {
   color: var(--Almost-Black);
-  font-weight: 700;
+  font-weight: 500;
 }
 .navbar-section .navbar .nav-sector .nav-content {
   color: var(--Medium-Gray);
 }
 .navbar-section .navbar .nav-sector .nav-content:hover {
   color: var(--Almost-Black);
-  font-weight: 700;
+  font-weight: 500;
 }
 .navbar-section .navbar .nav-sector {
   max-height: 2rem;
@@ -172,6 +168,7 @@
 @media only screen and (max-width: 850px) {
   body {
     overflow: hidden;
+    position: relative;
     /* width: 350px; */
   }
   .main-container {
@@ -183,6 +180,8 @@
   }
   .navbar-section {
     padding: 1rem;
+    margin-bottom: 2rem;
+    position: fixed;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -191,7 +190,7 @@
     display: none;
     background-color: var(--Almost-White);
     position: absolute;
-    box-shadow:hsl(0, 0%, 41%);
+    box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
     top: 1rem;
     font-size: 19px;
     right: -1rem;
@@ -201,7 +200,6 @@
     align-items: flex-start;
     width: 15rem;
     left: auto;
-    /* padding: 2rem 5rem; */
   }
   .show{
     display: flex !important;
@@ -277,6 +275,7 @@
     display: flex !important;
   }
   .section-a {
+    margin-top: 3rem;
     display: flex;
     width: 26rem;
     padding: 1rem 0rem;
